@@ -1,0 +1,26 @@
+1645904505690	geckodriver	INFO	Listening on 127.0.0.1:49939
+1645904506608	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_m/32c_f7tn12b28fs3yt_9krhm0000gn/T/rust_mozprofiletZ0nbO"
+1645904510394	Marionette	INFO	Marionette enabled
+2022-02-27 01:11:51.047 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x12151e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:11:51.047 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x12cb48000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:11:51.048 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x12cb48c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:11:51.048 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x12cb4c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:11:51.049 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x12cb47800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:11:51.049 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12cb45400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:11:51.050 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12cd4c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_m/32c_f7tn12b28fs3yt_9krhm0000gn/T/rust_mozprofiletZ0nbO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1645904512188	Marionette	INFO	Listening on port 49950
+2022-02-27 01:14:27.706 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x11f1ad800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:14:27.707 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x11fb7f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:14:27.707 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x11fbe6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:14:27.708 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x11fbe9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:14:27.708 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSButton: 0x12c6cd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:14:27.709 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12c6dc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:14:27.709 firefox-bin[1492:41744] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12c066000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1645904676993	Marionette	INFO	Stopped listening on port 49950
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

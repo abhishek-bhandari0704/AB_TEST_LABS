@@ -1,0 +1,19 @@
+1645904555316	geckodriver	INFO	Listening on 127.0.0.1:49992
+1645904555330	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_m/32c_f7tn12b28fs3yt_9krhm0000gn/T/rust_mozprofilebziVc3"
+1645904555640	Marionette	INFO	Marionette enabled
+2022-02-27 01:12:36.225 firefox-bin[1506:42572] Warning: Expected min height of view: (<NSButton: 0x137978000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:12:36.226 firefox-bin[1506:42572] Warning: Expected min height of view: (<NSButton: 0x13797ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:12:36.226 firefox-bin[1506:42572] Warning: Expected min height of view: (<NSButton: 0x13797ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:12:36.227 firefox-bin[1506:42572] Warning: Expected min height of view: (<NSButton: 0x13797cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:12:36.227 firefox-bin[1506:42572] Warning: Expected min height of view: (<NSButton: 0x13797f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:12:36.228 firefox-bin[1506:42572] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x137977400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-27 01:12:36.228 firefox-bin[1506:42572] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1379c8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_m/32c_f7tn12b28fs3yt_9krhm0000gn/T/rust_mozprofilebziVc3/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1645904557354	Marionette	INFO	Listening on port 50001
+1645904557391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645904558752	Marionette	INFO	Stopped listening on port 50001
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
